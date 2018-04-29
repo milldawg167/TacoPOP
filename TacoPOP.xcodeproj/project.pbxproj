@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F80F5BEA2095E215001280D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F5BE92095E215001280D5 /* AppDelegate.swift */; };
-		F80F5BEC2095E215001280D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F5BEB2095E215001280D5 /* ViewController.swift */; };
 		F80F5BEF2095E215001280D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80F5BED2095E215001280D5 /* Main.storyboard */; };
 		F80F5BF22095E215001280D5 /* TacoPOP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F80F5BF02095E215001280D5 /* TacoPOP.xcdatamodeld */; };
 		F80F5BF42095E21B001280D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80F5BF32095E21B001280D5 /* Assets.xcassets */; };
 		F80F5BF72095E21B001280D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80F5BF52095E21B001280D5 /* LaunchScreen.storyboard */; };
 		F80F5C022095E21B001280D5 /* TacoPOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F5C012095E21B001280D5 /* TacoPOPTests.swift */; };
 		F80F5C0D2095E21C001280D5 /* TacoPOPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F5C0C2095E21C001280D5 /* TacoPOPUITests.swift */; };
+		F80F5C212095E2C0001280D5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F5C202095E2C0001280D5 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		F80F5BE62095E215001280D5 /* TacoPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80F5BE92095E215001280D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F80F5BEB2095E215001280D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F80F5BEE2095E215001280D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F80F5BF12095E215001280D5 /* TacoPOP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TacoPOP.xcdatamodel; sourceTree = "<group>"; };
 		F80F5BF32095E21B001280D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,10 +44,10 @@
 		F80F5BF82095E21B001280D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80F5BFD2095E21B001280D5 /* TacoPOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoPOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80F5C012095E21B001280D5 /* TacoPOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPOPTests.swift; sourceTree = "<group>"; };
-		F80F5C032095E21B001280D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80F5C082095E21C001280D5 /* TacoPOPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoPOPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80F5C0C2095E21C001280D5 /* TacoPOPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPOPUITests.swift; sourceTree = "<group>"; };
 		F80F5C0E2095E21C001280D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80F5C202095E2C0001280D5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +98,12 @@
 		F80F5BE82095E215001280D5 /* TacoPOP */ = {
 			isa = PBXGroup;
 			children = (
-				F80F5BE92095E215001280D5 /* AppDelegate.swift */,
-				F80F5BEB2095E215001280D5 /* ViewController.swift */,
-				F80F5BED2095E215001280D5 /* Main.storyboard */,
-				F80F5BF32095E21B001280D5 /* Assets.xcassets */,
-				F80F5BF52095E21B001280D5 /* LaunchScreen.storyboard */,
+				F80F5C1E2095E24D001280D5 /* Extensions */,
+				F80F5C1D2095E243001280D5 /* Protocols */,
+				F80F5C1C2095E23C001280D5 /* Model */,
+				F80F5C1B2095E235001280D5 /* View */,
+				F80F5C1A2095E224001280D5 /* Controller */,
+				F80F5C1F2095E252001280D5 /* Resources */,
 				F80F5BF82095E21B001280D5 /* Info.plist */,
 				F80F5BF02095E215001280D5 /* TacoPOP.xcdatamodeld */,
 			);
@@ -114,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				F80F5C012095E21B001280D5 /* TacoPOPTests.swift */,
-				F80F5C032095E21B001280D5 /* Info.plist */,
 			);
 			path = TacoPOPTests;
 			sourceTree = "<group>";
@@ -126,6 +125,53 @@
 				F80F5C0E2095E21C001280D5 /* Info.plist */,
 			);
 			path = TacoPOPUITests;
+			sourceTree = "<group>";
+		};
+		F80F5C1A2095E224001280D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F80F5BE92095E215001280D5 /* AppDelegate.swift */,
+				F80F5C202095E2C0001280D5 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F80F5C1B2095E235001280D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F80F5BF52095E21B001280D5 /* LaunchScreen.storyboard */,
+				F80F5BED2095E215001280D5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F80F5C1C2095E23C001280D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F80F5C1D2095E243001280D5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F80F5C1E2095E24D001280D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F80F5C1F2095E252001280D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F80F5BF32095E21B001280D5 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80F5BEC2095E215001280D5 /* ViewController.swift in Sources */,
 				F80F5BEA2095E215001280D5 /* AppDelegate.swift in Sources */,
+				F80F5C212095E2C0001280D5 /* MainVC.swift in Sources */,
 				F80F5BF22095E215001280D5 /* TacoPOP.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
